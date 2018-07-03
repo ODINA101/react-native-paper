@@ -4,7 +4,7 @@ import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
 import color from 'color';
 
-import withTheme from '../core/withTheme';
+import { withTheme } from '../core/theming';
 import TouchableRipple from './TouchableRipple';
 import Icon from './Icon';
 import type { IconSource } from './Icon';
